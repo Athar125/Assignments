@@ -18,3 +18,5 @@ var num10: number = 12;
 var result: number = num1 + num2 + num3 + num4 + num5 + num6 
 + num7 + num8 + num9 + num10;
 console.log (result);
+
+// SUBTRACTION :
