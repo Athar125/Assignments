@@ -1,5 +1,5 @@
 // ADDITION :
-
+/*
 console.log ("Hey Athar Sab, I have started learning TYPESCRIPT." )
 var username = "Athar Sab" ;
 console.log (username);
@@ -20,3 +20,54 @@ var result: number = num1 + num2 + num3 + num4 + num5 + num6
 console.log (result);
 
 // SUBTRACTION :
+
+console.log("Athar, Azhar")
+var username = "Athar";
+console.log(username);
+var username2: string = "Azhar";
+console.log (username2)
+var num1: number = 12;
+var num2: number = 4;
+var result: number = num1 - num2;
+console.log(result);
+
+// MULTIPLY :
+
+console.log("Athar, Azhar")
+var username = "Athar";
+console.log(username);
+var username2: string = "Azhar";
+console.log (username2)
+var num1: number = 12;
+var num2: number = 4;
+var result: number = num1 * num2;
+console.log(result);
+
+// DIVIDE :
+
+console.log("Athar, Azhar")
+var username = "Athar";
+console.log(username);
+var username2: string = "Azhar";
+console.log (username2)
+var num1: number = 12;
+var num2: number = 4;
+var result: number = num1 / num2;
+console.log(result);
+
+// COMBINE :
+
+console.log ("Hey Athar Sab, I have started learning TYPESCRIPT." )
+var username = "Athar Sab" ;
+console.log (username);
+var username2 : string = "Azhar Sab";
+console.log (username2); 
+var num1: number = 2;
+var num2: number = 3;
+var num3: number = 4;
+var num4: number = 5;
+var num5: number = 6;
+var result: number = num1 + num2 - num3 * num4 / num5;
+console.log (result);
+
+*/
