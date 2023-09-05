@@ -3,3 +3,8 @@
 // Your message should be simple, such as, “Hello Eric, would you like to learn some Python today?”
 let variableA = "Hello Athar, How are you.";
 console.log(variableA);
+// 03. Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, 
+// uppercase, and titlecase.
+var name1 = "Athar Sab";
+console.log(name1.toLowerCase());
+console.log(name1.toUpperCase());

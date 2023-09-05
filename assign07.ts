@@ -4,6 +4,17 @@
 let variableA = "Hello Athar, How are you.";
 console.log(variableA); 
 
-// Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, 
+// 03. Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, 
 // uppercase, and titlecase.
+
+var name1:string="Athar Sab";
+console.log(name1.toLowerCase());
+console.log(name1.toUpperCase())
+
+
+
+
+
+
+
 
