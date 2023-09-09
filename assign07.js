@@ -351,4 +351,64 @@ else if (alien_color.includes("red")) {
     console.log("You Just Earn 15 Points ");
 }
 ;
-*/
+
+// 28. Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
+let userAge = 55;
+if (userAge < 2) {
+    console.log(" the person is a baby."); //• If the person is less than 2 years old, print a message that the person is a baby.
+}
+else if (userAge >= 2 && userAge < 4) {
+    console.log(" the person is a toddler."); //• If the person is at least 2 years old but less than 4, print a message that the person is a toddler.
+}
+else if (userAge >= 4 && userAge < 13) {
+    console.log(" the person is a kid."); //• If the person is at least 4 years old but less than 13, print a message that the person is a kid.
+}
+else if (userAge >= 13 && userAge < 20) {
+    console.log(" the person is a Teenager."); //• If the person is at least 13 years old but less than 20, print a message that the person is a teenager.
+}
+else if (userAge >= 20 && userAge < 65) {
+    console.log(" the person is a adult."); //• If the person is at least 20 years old but less than 65, print a message that the person is an adult.
+}
+else if (userAge >= 65) {
+    console.log(" the person is a elder."); //• If the person is age 65 or older, print a message that the person is an elder.
+}
+                               
+// 29. Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
+// Make an array of your three favorite fruits
+const favorite_fruits = ['banana', 'apple', 'strawberry'];
+// Write five independent if statements to check for certain fruits
+if (favorite_fruits.includes('banana')) {
+    console.log("You really like bananas!");
+}
+if (favorite_fruits.includes('apple')) {
+    console.log("You're a fan of apples!");
+}
+if (favorite_fruits.includes('strawberry')) {
+    console.log("Strawberries are one of your favorites!");
+}
+if (favorite_fruits.includes('orange')) {
+    console.log("You enjoy oranges!");
+}
+else {
+    console.log("Oranges are not in your favorites.");
+}
+if (favorite_fruits.includes('grape')) {
+    console.log("Grapes are among your favorite fruits!");
+}
+else {
+    console.log("Grapes didn't make it to your top three.");
+}
+ 
+// 30. Hello Admin: Make a array of five or more usernames, including the name 'admin'. Imagine you are writing code that will
+// print a greeting to each user after they log in to a website. Loop through the array, and print a greeting to each user:
+let usernames = ['admin', 'Eric', 'mian', 'harry', 'ceo'];
+// • If the username is 'admin', print a special greeting, such as Hello admin, would you like to see a status report?
+for (const username of usernames) {
+    if (username === 'admin') {
+        console.log("Hello admin, would you like to see a status report?");
+    }
+    else {
+        console.log(`Hello ${username}, thank you for logging in again.`);
+    }
+}
+*/ 
