@@ -183,3 +183,27 @@ for (let index = 0; index < countryList.length; index++) {
     console.log(countryList[index]);
 }
 */
+// 21. They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
+const itemObject = {
+    Name: "ATHAR SAB",
+    Age: 29,
+    isStudent: true,
+    Hobbies: ["Learning", "Codding"]
+};
+console.log(itemObject);
+// 23. Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. 
+// Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
+const myArray = [1, 2, 3, 4, 5];
+// Intentionally access an element at an invalid index
+try {
+    const element = myArray[10];
+    console.log(`Element at index 10: ${element}`);
+}
+catch (error) {
+    console.error(`An error occurred: ${error}`);
+}
+// Correct the error by accessing a valid index
+const validIndex = 2; // Change this to a valid index within the array length
+const validElement = myArray[validIndex];
+console.log(`Element at index ${validIndex}: ${validElement}`);
+//  Exercise --23
