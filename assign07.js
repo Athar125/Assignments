@@ -182,7 +182,7 @@ let countryList = ["Pakistan", "Afganistan", "Bngladash", "Iran", "Iraq", "Turke
 for (let index = 0; index < countryList.length; index++) {
     console.log(countryList[index]);
 }
-*/
+
 // 21. They think of something you could store in a TypeScript Object. Write a program that creates Objects containing these items.
 const itemObject = {
     Name: "ATHAR SAB",
@@ -191,7 +191,8 @@ const itemObject = {
     Hobbies: ["Learning", "Codding"]
 };
 console.log(itemObject);
-// 23. Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. 
+
+// 23. Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen.
 // Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
 const myArray = [1, 2, 3, 4, 5];
 // Intentionally access an element at an invalid index
@@ -206,4 +207,50 @@ catch (error) {
 const validIndex = 2; // Change this to a valid index within the array length
 const validElement = myArray[validIndex];
 console.log(`Element at index ${validIndex}: ${validElement}`);
-//  Exercise --23
+*/
+// Conditional Tests: Write a series of conditional tests. Print a statement describing each test
+//  and your prediction for the results of each test. Your code should look something like this:
+let car = 'BMW';
+console.log("Is car == 'BMW'? I predict True.");
+console.log(car == 'BMW');
+// Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
+// 1
+let age = 29;
+// True
+console.log("is age < '20'? I predict True");
+console.log(age < 30);
+// False
+console.log("is age > '20'? I predict False");
+console.log(age > 30);
+// 2
+let aim = "Engineer";
+// true
+console.log("is aim == 'Engineer'? I predict True");
+console.log(aim == "Engineer");
+// False
+console.log("is aim == 'engineer'? I predict False");
+console.log(aim == "engineer");
+// 3
+let role = "Devolper";
+// true
+console.log("is role == 'Devolper'? I predict True");
+console.log(role == "Devolper");
+// false
+console.log("is role == 'devolper'? I predict False");
+console.log(role == "devolper");
+// 4
+let isLearning = "Yes";
+// true
+console.log("is learning == 'Yes'? I predict True");
+console.log(isLearning == "Yes");
+// false
+console.log("is learning == 'yes'? I predict False");
+console.log(isLearning == "yes");
+// 5
+let month = "September";
+// true
+console.log("is Month == 'September'? I predict True");
+console.log(month == "September");
+// false
+console.log("is Month == 'November'? I predict False");
+console.log(month == "November");
