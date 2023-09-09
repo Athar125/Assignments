@@ -192,7 +192,7 @@ const itemObject = {
 };
 console.log(itemObject);
 
-// 23. Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen.
+// 22. Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen.
 // Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
 const myArray = [1, 2, 3, 4, 5];
 // Intentionally access an element at an invalid index
@@ -207,8 +207,8 @@ catch (error) {
 const validIndex = 2; // Change this to a valid index within the array length
 const validElement = myArray[validIndex];
 console.log(`Element at index ${validIndex}: ${validElement}`);
-*/
-// Conditional Tests: Write a series of conditional tests. Print a statement describing each test
+
+// 23. Conditional Tests: Write a series of conditional tests. Print a statement describing each test
 //  and your prediction for the results of each test. Your code should look something like this:
 let car = 'BMW';
 console.log("Is car == 'BMW'? I predict True.");
@@ -254,3 +254,101 @@ console.log(month == "September");
 // false
 console.log("is Month == 'November'? I predict False");
 console.log(month == "November");
+
+ 
+// 24. More Conditional Tests: You don’t have to limit the number of tests you create to 10. If you want to try more comparisons,
+// write more tests. Have at least one True and one False result for each of the following:
+// • Tests for equality and inequality with strings
+let myAge = 29;
+// Tests for equality
+console.log("Tests for equality? predict True");
+console.log(myAge == 29);
+// Tests for inequality
+console.log("Tests for inequality? predict False");
+console.log(myAge != 29);
+// Tests using the lower case function
+let studentsLearning = "Yes";
+// true
+console.log("Tests using the upper case 'Yes'? I predict True");
+console.log(studentsLearning == "Yes");
+// false
+console.log("Tests using the lower 'yes'? I predict False");
+console.log(studentsLearning == "yes");
+// • Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
+let Number1 = 5;
+let Number2 = 9;
+console.log(Number1 < Number2); //true
+console.log(Number1 > Number2); //fasle
+console.log(Number1 == Number2); //false
+console.log(Number1 != Number2); //true
+console.log(Number1 <= Number2); //true
+console.log(Number1 >= Number2); //false
+// • Tests using "and" and "or" operators
+const x = 5;
+const y = 15;
+const z = 25;
+// and &&
+console.log(x < y && y < z); //true
+console.log(x > y && y < z); //false
+// or ||
+console.log(x > y || y < z); //true
+console.log(x > y || y > z); //false
+// • Test whether an item is in a array
+const color = ["red", "blue", "green"];
+console.log(color.includes("purple")); //false
+console.log(color.includes("blue")); // true
+// • Test whether an item is not in a array
+const fruits = ["banaba", "apple", "orange"];
+console.log(!fruits.includes("kiwi")); //true
+console.log(!fruits.includes("apple")); // false
+
+// 25. Alien Colors #1: Imagine an alien was just shot down in a game.
+// Create a variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
+var alien_color = ["green", "yellow", "red"];
+// • Write an if statement to test whether the alien’s color is green. If it is, print a message that the player just earned 5 points.
+if (alien_color.includes("green")) {
+    console.log("You Just Earn 5 Points");
+}
+// • Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
+if (alien_color.includes("green")) {
+    console.log("You Just Earn 5 Points");
+}
+;
+if (!alien_color.includes("green")) {
+    console.log("You Just Earn 5 Points");
+}
+
+// 26. Alien Colors #2: Choose a color for an alien as you did in Exercise --25, and write an if-else chain.
+// • If the alien’s color is green, print a statement that the player just earned 5 points for shooting the alien.
+if (alien_color.includes("green")) {
+    console.log("You Just Earn 5 Points for shooting the alien.");
+}
+// • If the alien’s color isn’t green, print a statement that the player just earned 10 points.
+if (!alien_color.includes("green")) {
+    console.log("You Just Earn 10 Points for shooting the alien.");
+}
+;
+// • Write one version of this program that runs the if block and another that runs the else block.
+if (alien_color.includes("green")) {
+    console.log("You Just Earn 5 Points for shooting the alien.");
+}
+else {
+    console.log("You Just Earn 10 Points for shooting the alien.");
+}
+;
+
+// 27. Alien Colors #3: Turn your if-else chain from Exercise --5-4 into an if-else chain.
+// • If the alien is green, print a message that the player earned 5 points.
+if (alien_color.includes("green")) {
+    console.log("You Just Earn 5 Points ");
+}
+// • If the alien is yellow, print a message that the player earned 10 points.
+else if (alien_color.includes("yellow")) {
+    console.log("You Just Earn 10 Points ");
+}
+// • If the alien is red, print a message that the player earned 15 points.
+else if (alien_color.includes("red")) {
+    console.log("You Just Earn 15 Points ");
+}
+;
+*/
