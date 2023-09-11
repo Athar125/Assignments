@@ -551,4 +551,53 @@ function city_country(city:string, country:string) {
 city_country("Faislabad", "Pakistan");
 city_country("Istanbul", "Turkey");
 city_country("Beijing", "China");
+
+// 40. Album: Write a function called make_album() that builds a Object describing a music album. The function should take in an artist name and an album title, and it should return a Object containing these two pieces of information. Use the function to make three dictionaries representing different albums. Print each return value to show that Objects are storing the album information correctly. Add an optional parameter to make_album() that allows you to store the number of tracks on an album. If the calling line includes a value for the number of tracks, add that value to the album’s Object. Make at least one new function call that includes the number of tracks on an album.
+function make_album(artist:string, album:string) {
+    const output = {
+        artist,
+        album
+    };
+    console.log(output);
+}
+make_album("Shahzad", "kangna");
+// function with opitinal perameter
+function makeAlbum(artist:string, album:string, tracks:number) {
+    const output = {
+        artist,
+        album,
+        tracks
+    };
+    if (tracks !== undefined) {
+        output.tracks = tracks;
+    }
+    return output;
+}
+let myMusic = makeAlbum("Jawad", "O meray yar", 10);
+let myMusic2 = makeAlbum("Sajaad", "sahil py kharay", 10);
+let myMusic3 = makeAlbum("Abrar", "chamkeli", 13);
+console.log(myMusic);
+console.log(myMusic2);
+console.log(myMusic3);
+
+// 44. Sandwiches: Write a function that accepts a array of items a person wants on a sandwich. The function should have one parameter that collects as many items as the function call provides, and it should print a summary of the sandwich that is being ordered. Call the function three times, using a different number of arguments each time.
+function sandwich(items:string[]) {
+    console.log("You ordered a sandwich with the following ingredients:");
+    for (const item of items) {
+        console.log(`- ${item}`);
+    }
+}
+const orderSandwich = ["Beef", "Cheese", "Lettuce", "Cucumber", "Tomato"];
+sandwich(orderSandwich);
+
+// 45. Cars: Write a function that stores information about a car in a Object. The function should always receive a manufacturer and a model name. It should then accept an arbitrary number of keyword arguments. Call the function with the required information and two other name-value pairs, such as a color or an optional feature. Print the Object that’s returned to make sure all the information was stored correctly.
+function infoCar(manufacturer:string, model:string, ...properties:any) {
+    const car = { manufacturer, model };
+    for (const [key, value] of properties) {
+          car[key] =value;
+    }
+    return car;
+}
+const mycar = infoCar("toyta", "civic", ["color", "White"], ["extra Feacture", "Sun roof"]);
+console.log(mycar)
 */ 
