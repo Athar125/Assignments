@@ -599,4 +599,33 @@ function infoCar(manufacturer:string, model:string, ...properties:any) {
 }
 const mycar = infoCar("toyta", "civic", ["color", "White"], ["extra Feacture", "Sun roof"]);
 console.log(mycar)
+
+// 41. Magicians: Make a array of magician’s names. Pass the array to a function called show_magicians(), which prints the name of each magician in the array.
+const magicianArray = ["Aftab", "ALi", "Butt", "Jimmy", "Soni", "Mian"];
+function show_magicians(magician) {
+    magician.forEach(element => {
+        console.log(element);
+    });
+}
+show_magicians(magicianArray);
+
+// Great Magicians: Start with a copy of your program from Exercise 39. Write a function called make_great() that modifies the array of magicians by adding the phrase the Great to each magician’s name. Call show_magicians() to see that the list has actually been modified.
+const magician = ["Aftab", "ALi", "Butt", "Jimmy", "Soni", "Mian"];
+function make_great(magician) {
+    magician.forEach(element => {
+        console.log(element);
+    });
+}
+;
+make_great(magician);
+function show_magician(magician) {
+    const greatMagician = magician.map(magician => `the great ${magician}`);
+    return greatMagician;
+}
+console.log(show_magician(magician));
+
+ // Unchanged Magicians: Start with your work from Exercise 40. Call the function make_great() with a copy of the array of magicians’ names. Because the original array will be unchanged, return the new array and store it in a separate array. Call show_magicians() with each array to show that you have one array of the original names and one array with the Great added to each magician’s name.
+make_great(magician);
+const newArray = ["Azhar", "Zain", "Saad", "Sahil"];
+show_magician(newArray);
 */
