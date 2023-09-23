@@ -1,4 +1,3 @@
-"use strict";
 // Write a program that uses filter to remove all negative numbers from an array of numbers.
 /*
 let array:number[] = [-123,2,-3,106,65,-1,85] ;
@@ -24,6 +23,7 @@ let arrayMultiplyNum = () => {
 arrayMultiplyNum()
 console.log(array)
 */
+export {};
 // Given an array of strings ["apple", "banana", "cherry", "date", "grape"],use the filter method 
 // to create a new array containing only the fruits with more than 5 characters.
 /*

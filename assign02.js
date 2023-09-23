@@ -1,4 +1,4 @@
-"use strict";
+export {};
 /*
 
 console.log ("Hey Athar Sab, I have started learning TYPESCRIPT." )
