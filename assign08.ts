@@ -1,3 +1,4 @@
+/*
 import inquirer from "inquirer";
 interface CalculatorInput {
     num1 : number;
@@ -54,3 +55,5 @@ async function getCalculatorInput(): Promise<CalculatorInput> {
  }
 
  startCalculator();
+
+ */
