@@ -139,7 +139,9 @@ university.faculties.forEach((faculty)=> {
 
 console.log('Name of All Students:');
 console.log('121-Nt-NTU Students:', NTUGroup121.students.map((student) => student.name));
-console.log('122-Nt-NTU Students:', NTUGroup122.students.map((student) => student.name));
+console.log('122-Nt-NTU Students:', NTUGroup122.students.map((student) => student.name));  
+
+
 
 
 
